@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ee-simulation/ee-simulation/static/css/main.f855e6bc.css",
+    "main.js": "/ee-simulation/ee-simulation/static/js/main.71917ab3.js",
+    "static/js/453.3430fce4.chunk.js": "/ee-simulation/ee-simulation/static/js/453.3430fce4.chunk.js",
+    "index.html": "/ee-simulation/ee-simulation/index.html",
+    "main.f855e6bc.css.map": "/ee-simulation/ee-simulation/static/css/main.f855e6bc.css.map",
+    "main.71917ab3.js.map": "/ee-simulation/ee-simulation/static/js/main.71917ab3.js.map",
+    "453.3430fce4.chunk.js.map": "/ee-simulation/ee-simulation/static/js/453.3430fce4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.71917ab3.js"
+  ]
+}
