@@ -5,21 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard Simulasi Efisiensi Energi Bangunan</title>
   
-  <!-- Include Tailwind CSS via CDN -->
+  <!-- Basic styling -->
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background-color: #f9fafb;
+      margin: 0;
+      padding: 0;
+    }
+    #loading-message {
+      text-align: center;
+      padding: 50px;
+      font-size: 18px;
+    }
+  </style>
+  
+  <!-- Direct script loading -->
   <script src="https://cdn.tailwindcss.com"></script>
-  
-  <!-- Include React and ReactDOM -->
-  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-  
-  <!-- Include Recharts -->
-  <script src="https://unpkg.com/recharts/umd/Recharts.min.js"></script>
-  
-  <!-- Include Babel for JSX transformation -->
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/recharts@2.5.0/umd/Recharts.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.21.4/babel.min.js"></script>
 </head>
 <body class="bg-gray-50">
-  <div id="root"></div>
+  <div id="root">
+    <div id="loading-message">Loading dashboard... Please wait.</div>
+  </div>
   
   <script type="text/babel">
     // Format number with comma as decimal separator and point as thousands separator
